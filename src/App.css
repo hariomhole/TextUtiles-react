@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.list{
+    font-size: 16px;
+     transition: font-size 0.3s ease;
+}
+.list:hover{
+    font-size: 18px;
+    
+}
+
+
+
+
+.title{
+    font-size: 2rem;
+}
+
+.headong{
+   text-align: center;
+}
+
+.btn{
+     transition: background-color 0.3s ease, color 0.3s ease;
+     cursor: pointer;
+}
+.btn:hover{
+    background-color: blue;
+    color: rgb(255, 254, 254);
+    border: 1px solid black;
+}
+
+#btn2{
+      transition: background-color 0.3s ease, color 0.3s ease;
+     cursor: pointer;
+     margin-left: 10px;
+}
+
+
+#btn2:hover{
+  background-color: green;
+}
+
+
+#btn3{
+      transition: background-color 0.3s ease, color 0.3s ease;
+     cursor: pointer;
+     margin-left: 10px;
+    
+}
+
+
+#btn3:hover{
+  background-color:yellow;
+  color: black;
+}
+#btn4:hover{
+ background-color: red;
+ color: white;
+}
+.btns{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+flex-wrap: wrap;
+min-width: 100%;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#searchbtn:hover{
+  background-color: green;
+}
+.container1{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.preview{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#darkMode{
+    height: 40px;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: aqua;
+    color: black;
+
+}
+
+.toggle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#btn5:hover{
+   background-color: rgb(87, 176, 248);
+}
+
+#btn6:hover{
+    background-color: green;
+}
+#modecheck{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  position: relative;
+  left: 10px;
+  margin-top: 5px;
+  height: 40px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+  
+.animated-alert {
+  animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#undo{
+height: 7vh;
+width: 50px;
+margin-top: 15px;
+border-radius: 10px;
+color: white;
+outline: none;
+border: 1px solid black;
+}
+#redo{
+height: 7vh;
+width: 50px;
+margin-top: 15px;
+border-radius: 10px;
+color: white;
+outline: none;
+border: 1px solid black;
+}
